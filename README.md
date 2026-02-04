@@ -5,7 +5,7 @@ Toolchain-focused base images (no editor, no git). Optional `psql` client via bu
 ## Build
 
 ### Python
-docker build -t jmvs/py:latest images/py
+`docker build -t jmvs/py:latest images/py`
 docker build -t jmvs/py:psql --build-arg WITH_PSQL=1 images/py
 
 ### Haskell
